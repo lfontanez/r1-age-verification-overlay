@@ -58,7 +58,7 @@ Keep in mind that if you access the `index.html` file without a web server. No c
 
 ## Contributing
 
-Contributions to this plugin are welcome. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request on the [GitHub repository](https://github.com/R1Software/r1-age-verification-overlay).
+Contributions to this plugin are welcome. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request on the [GitHub repository](https://github.com/lfontanez/r1-age-verification-overlay).
 
 ## License
 
