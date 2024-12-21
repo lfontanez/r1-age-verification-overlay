@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Age Verification Overlay - Example</title>
+
+<!-- START COPY/PASTE THESE LINES INTO YOUR HTML HEAD -->
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <!-- Google Roboto Slab Font -->
+        <link href='https://fonts.googleapis.com/css?family=Roboto Slab' rel='stylesheet'>
+
+        <!-- Age Verification CSS (modify path if needed) -->
+        <link rel="stylesheet" href="css/age-verification.css">
+
+        <!-- Age Verification jQuery Script (modify path if needed) -->
+        <script src="js/age-verification.js"></script>
+
+<!-- END COPY/PASTE THESE LINES INTO YOUR HTML HEAD -->
+    </head>
+    <body>
+        <div class="container full-width">
+            <div class="content">Legal Age Confirmed. Your Content is Visible</div>
+    <!-- START COPY/PASTE THESE LINES INTO YOUR HTML BODY -->
+        <div id="R1_PORTAL">
+            <div class="r1-age-verification-popup-container r1-age-verification-popup-show">
+                <div class="Background__Container-sc-4lq1r6-0 sJhos" style="position: fixed;">
+                    <div class="Background__Base-sc-4lq1r6-1 egiTHk"></div>
+                    <div class="Background__Overlay-sc-4lq1r6-2 djWGwD"></div>
+                </div>
+                <div class="r1-age-verification-popup-inner">
+                    <div class="r1-age-verification-item-container">
+                        <div class="r1-age-verification-item-error"></div>
+                        <div class="r1-age-verification-item-content">
+                            <div class="r1-age-verification-item-message">ARE YOU OF LEGAL SMOKING AGE?</div>
+                            <div class="r1-age-verification-item-caption">Please, enter year closest to your date of birth:</div>
+                            <div class="r1-age-verification-item-allow-container">
+                                <div class="r1-age-verification-item-allow-form"><input type="number" inputmode="numeric"
+                                        pattern="[0-9]{3}" name="year" placeholder="YYYY" maxlength="9999"
+                                        class="r1-age-verification-item-allow-year-input"><button type="button"
+                                        class="r1-age-verification-item-allow-year-submit">ENTER</button></div>
+                            </div>
+                            <div class="r1-age-verification-item-additionalInfo">
+                                <p>By entering this website, you
+                                certify that you are of legal smoking age in the state in which you reside.</p>
+                                <p class="powered-by">Powered by <a href="https://r1software.com" target="_blank">R1 Software</a></p>
+                            </div>
+                            
+                        </div>
+                        <div class="r1-age-verification-item-image">
+                            <div class="r1-age-verification-item-image-imageContainer">
+                                <div class="r1-age-verification-item-image-image"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- END COPY/PASTE THESE LINES INTO YOUR HTML BODY -->
+    </body>
+</html>
